@@ -2,18 +2,11 @@ import { CartIcon } from '../icons';
 import { useSelector } from 'react-redux';
 
 const Navbar = () => {
-    // console.log(
-    //     useSelector((store) => {
-    //         console.log(store);
-    //     })
-    // );
-    // const { amount } = useSelector((store) => store.cart);
-
     const amount = useSelector((store) => store.cart.amount)
     return (
         <nav>
             <div className='nav-center'>
-                <h3>Redux Toolkit</h3>
+                <h3>Redux Toolkit Cart</h3>
                 <div className='nav-container'>
                     <CartIcon />
                     <div className='amount-container'>

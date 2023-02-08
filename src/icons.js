@@ -1,3 +1,4 @@
+// - [Hero Icons](https://heroicons.com/)
 export const CartIcon = () => {
   return (
     <svg
