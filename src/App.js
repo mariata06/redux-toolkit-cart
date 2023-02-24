@@ -12,10 +12,12 @@ function App() {
 
   useEffect(() => {
     dispatch(calculateTotals());
+    // eslint-disable-next-line
   }, [cartItems]);
 
   useEffect(() => {
     dispatch(getCartItems('random'));
+    // eslint-disable-next-line
   }, []);
 
   if(isLoading) {
